@@ -7,6 +7,16 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  nome:string = "Marco Aurélio"
+
   constructor() {}
+
+  ngOnInit() {
+    this.chamarNome()
+  }
+
+  chamarNome():void{
+    alert('Alerta')
+  }
 
 }
